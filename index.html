@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Peixoto - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<header>
+    <nav>
+        <h2>Felipe Peixoto</h2>
+        <ul>
+            <li><a href="#minhabio">SOBRE</a></li>
+            <li><a href="#Formação">FORMAÇÃO</a></li>
+            <li><a href="#Projetinhos">PORTFÓLIO</a></li>
+            <li><a href="#meuForm">CONTATO</a></li>
+        </ul>
+        <button id="bttn">White/Dark</button>
+    </nav>
+</header>
+
+<!-- Seção Sobre -->
+ <section id="minhabio">
+    <h1>Sobre Mim</h1>
+    <br>
+    <p>Meu nome é Felipe Peixoto, natural de Brasília - DF, desde jovem um entusiasta por Tecnologia e Artes Maciais, já na fase adulta acrescidos os interesses por Mercado Financeiro, Viagens, Tiro Esportivo.</p>
+    <br>
+    <table>
+        <h2>Hobbies</h2>
+        <br>
+        <ul>
+            <li>Tecnologia, Vídeogame's;</li>
+            <br>
+            <li>Artes Maciais e Musculação;</li>
+        </ul>
+
+    </table>
+    
+    <br>
+
+    <h2>Interesses Diários:</h2>
+    <div class="interesses">
+
+        <div class="interesse interesse1">
+
+            <a href="https://tecmundo.com.br" target="_blank">
+            <img src="img/Tecmundo.png" alt="TecMundo" height="80px" width="150px">
+            <br>
+            https://tecmundo.com.br
+            </a>
+
+        </div>
+        <br>
+        <div class="interesse interesse2">
+
+            <a href="https:omelete.com.br" target="_blank">
+            <img src="img/Omelete.png" alt="Omelete" height="80px" width="150px">
+            <br>
+            https://omelete.com.br
+            </a>
+
+        <br>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- Formação -->
+<section id="Formação">
+    <h1>Formação</h1>
+
+    <div class="skill">
+        <p>Análise e Desenvolvimento de Sistemas - Uninter (Andamento)</p>
+        <div class="barra">
+            <div class="progresso" data-width="40%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>MySQL</p>
+        <div class="barra">
+            <div class="progresso" data-width="100%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Java Orientado a Objetos (POO)</p>
+        <div class="barra">
+            <div class="progresso" data-width="70%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Certificado em Cybersegurança Google</p>
+        <div class="barra">
+            <div class="progresso" data-width="90%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <p>Inglês - New Ubest</p>
+        <div class="barra">
+            <div class="progresso" data-width="50%"></div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Portfólio -->
+  <section id="Projetinhos">
+    <h1>Portfólio</h1>
+    <br>
+    <p>Atualmente trabalho na Coordenação de Contratos da Secretaria de Estado da Economia de Goiás, para melhorar o desempenho das minhas funções diárias desenvolvi algumas ferramentas, sendo elas:</p>
+    <br>
+    <p>Projeto Interno #1: Automatização de Planilha com VBA, utilizando API Google para cálculo de distância rodoviária com origem e destino automáticos a partir de qualquer um dos 246 municípios goianos.</p>
+    <br>
+    <p>A partir do esboço no My Maps (anexo), criei uma API que realiza a consulta e o cálculo é feito diretamente na planilha!</p>
+    <div class="mapaGoiano">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1f3trxx2SsJTxJ5yZREovPWMVNCwFy7U&ehbc=2E312F" width="80%" height="480"></iframe>
+    </div>
+    <br>
+    <br>
+    <br>
+    <p>Projeto Interno #2: Painel Power BI com apresentação de números de contrato, empenhos, glosas, gestores e dados diversos voltados para melhor controle e apresentação de dados, utilizando share point, também voltado exclusivamente para servidores da pasta.</p>
+
+  </section>
+
+  <!-- Contato -->
+   <section id="meuForm">
+    <h1>Contate-Me</h1>
+
+    <form id="formContato">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="E-mail">
+        <textarea id="mensagem" placeholder="Digite aqui sua Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mss"></p>
+   </section>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
